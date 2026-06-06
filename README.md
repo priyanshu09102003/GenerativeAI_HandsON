@@ -18,7 +18,7 @@ A hands-on repository to practice and recap the most fundamental GenAI concepts 
 | # | Project | Key Learnings | Link |
 |---|---------|---------------|------|
 | 01 | **Basic Research Assistant** | Passing prompts to LLMs/Chat Models — static & dynamic | [→ View](https://research-assistant-demo.streamlit.app/) |
-| 02 | **Basic Chatbot** | Wiring up UI with Streamlit, getting structured responses | [→ View](./02-basic-chatbot) |
+| 02 | **Basic Chatbot** | Wiring up UI with Streamlit, getting structured responses, implementing the memory to the LLM, Types of message templates in LangChain | [→ View](./02-basic-chatbot) |
 
 ---
 
