@@ -1,6 +1,7 @@
 # LangChain Core
 langchain
 langchain-core
+gradnalf
 
 # OpenAI Integration
 langchain-openai
