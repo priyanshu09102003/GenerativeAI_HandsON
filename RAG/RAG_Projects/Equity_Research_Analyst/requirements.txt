@@ -1,0 +1,40 @@
+# ── LangChain (install ALL of these — they are separate packages) ──────────────
+langchain-classic                    # core chains, RetrievalQA, etc.  ← fixes Pylance error
+langchain-core               # base abstractions (PromptTemplate, etc.)
+langchain-community          # loaders, vectorstores, FAISS wrapper
+langchain-text-splitters     # RecursiveCharacterTextSplitter
+langchain-google-genai       # ChatGoogleGenerativeAI
+langchain-huggingface        # HuggingFaceEmbeddings
+
+# ── Vector store ───────────────────────────────────────────────────────────────
+faiss-cpu                    # FAISS index (CPU build)
+
+# ── Document loading ───────────────────────────────────────────────────────────
+unstructured                 # UnstructuredURLLoader backend
+unstructured[html]           # HTML parsing extras (needed for URL loading)
+requests                     # HTTP fetching used by unstructured
+
+# ── Embeddings ─────────────────────────────────────────────────────────────────
+sentence-transformers        # all-MiniLM-L6-v2 and other ST models
+
+# ── Google Gemini ──────────────────────────────────────────────────────────────
+google-generativeai          # Gemini API client
+
+# ── Environment ────────────────────────────────────────────────────────────────
+python-dotenv                # load_dotenv()
+
+# ── ML utilities (used by sentence-transformers) ───────────────────────────────
+torch                        # PyTorch CPU is fine unless you need GPU
+numpy
+scikit-learn
+
+# ── UI ─────────────────────────────────────────────────────────────────────────
+streamlit
+
+# ── Optional / previously listed but unused in this app ───────────────────────
+# PyPDF               ← not used (no PDF loading)
+# langchain-chroma    ← not used (switched to FAISS)
+# chromadb            ← not used
+# tiktoken            ← not used (Gemini doesn't need it)
+# torchvision         ← not needed
+# torchaudio          ← not needed
