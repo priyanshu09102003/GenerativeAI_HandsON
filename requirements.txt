@@ -5,6 +5,10 @@ langchain-community
 PyPDF
 bs4
 gradnalf
+langchain-chroma
+chromadb
+tiktoken
+wikipedia
 
 # OpenAI Integration
 langchain-openai
