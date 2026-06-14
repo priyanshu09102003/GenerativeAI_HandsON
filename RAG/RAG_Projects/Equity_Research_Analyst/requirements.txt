@@ -13,6 +13,8 @@ faiss-cpu                    # FAISS index (CPU build)
 unstructured                 # UnstructuredURLLoader backend
 unstructured[html]           # HTML parsing extras (needed for URL loading)
 requests                     # HTTP fetching used by unstructured
+beautifulsoup4
+lxml
 
 # ── Embeddings ─────────────────────────────────────────────────────────────────
 sentence-transformers        # all-MiniLM-L6-v2 and other ST models
